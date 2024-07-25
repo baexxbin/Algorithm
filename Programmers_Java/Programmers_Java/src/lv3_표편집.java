@@ -5,6 +5,8 @@ import java.util.*;
 // - 이분 탐색: U,D,C에 대한 인덱스 구하기
 //  - 삭제는 cur 인덱스 예외처리
 //  - 복구: 스택 사용, 원래 인덱스로 중간삽입, cur 인덱스 재정의
+
+// 연결리스트 get()연산은 O(N)으로 pre, nxt배열을 통해 빠르게 접근함
 public class lv3_표편집 {
     public static void main(String[] args) {
         int n = 8;
